@@ -1,0 +1,60 @@
+body {
+  font-family: 'Fira Sans', sans-serif;
+  display: flex;
+}
+
+
+
+.col-2 {
+  border: 2px solid;
+  height: 100vh;
+}
+
+.weatherField {
+  height: 100vh;
+  width: 100%;
+  border: solid 5px;
+  display: flex;
+  flex-direction: column;
+  background-color: darkcyan;
+}
+
+.currentField {
+  border: 2px solid;
+  /* height: 50vh; */
+  width: 100%;
+ 
+
+}
+.fiveDay {
+  border: 2px solid;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.dayCard {
+  display: flex;
+  border: 5px solid;
+  width: 19%;
+  /* height: 400px; */
+  background-color: azure;
+
+}
+
+.selectCity {
+  width: 100%;
+  color: whitesmoke;
+  border: solid 2px;
+  margin: 5px 0px;
+  background-color: darkcyan;
+  justify-content: center;
+ 
+}
+
+.selectCity li {
+  list-style-type: none;
+}
